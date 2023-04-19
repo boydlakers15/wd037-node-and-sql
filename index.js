@@ -3,6 +3,8 @@ import ordersRouter from './routes/ordersRouter.js';
 import productsRouter from './routes/productsRouter.js';
 import errorHandler from './middlewares/errorHandler.js';
 
+
+
 const port = process.env.PORT || 8000;
 const app = express();
 
